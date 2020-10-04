@@ -1,0 +1,13 @@
+name: SnowNew
+version: ${project.version}
+main: snownetwork.me.snowplguin.snownew.Me.snowplguin.SnowNew
+api-version: 1.13
+commands:
+  snewcreate:
+    permission: Snow.admin
+    permission-message: You don't have snow.admin
+  snowhelp:
+    permission-message: You don't have snow.admin
+  snownewreload:
+    permission-message: You don't have snow.admin
+
