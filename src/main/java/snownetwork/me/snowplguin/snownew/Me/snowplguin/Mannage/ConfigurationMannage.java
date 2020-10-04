@@ -18,6 +18,6 @@ public class ConfigurationMannage {
         SnowNew.getInstance().getConfig().options().copyDefaults();
         SnowNew.getInstance().saveDefaultConfig();//这两行为加载config配置文件
         SnowNew.getInstance().reloadConfig();//重载配置文件
-        configuration=SnowNew.getInstance().getConfig();
+        configuration=SnowNew.getInstance().getConfig();//a
     }
 }
